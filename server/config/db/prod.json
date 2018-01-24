@@ -7,11 +7,12 @@
     "dialect": "mysql",
     "charset": "utf8",
     "collate": "utf8_unicode_ci",
-    "engine":"InnoDB",
+    "engine": "InnoDB",
     "dialectOptions": {
       "supportBigNumbers": true,
       "bigNumberStrings": true
     },
+    "operatorsAliases": false,
     "pool": {
       "max": 5,
       "min": 0,

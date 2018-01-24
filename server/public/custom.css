@@ -13,7 +13,7 @@
   background-color: #9E9E9E !important;
 }
 .bg_color_grey_light{
-  background-color: #EEEEEE !important;
+  background-color: #FFFFFF !important;
 }
 .bg_color_grey_dark{
   background-color: #616161 !important;
@@ -31,4 +31,61 @@
 div.logo{
   font-weight: bolder;
   font-size: 2em;
+}
+
+.ant-btn {
+    margin-right: 8px;
+    margin-bottom: 12px;
+}
+
+.ant-btn-group {
+    margin-right: 8px;
+}
+
+.ant-btn-group > .ant-btn {
+    margin-right: 0;
+}
+
+.ant-btn-group > .ant-btn:first-child {
+    margin-left: 0;
+}
+
+.ant-btn-group > .ant-btn:last-child:not(:first-child) {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    padding-left: 8px;
+}
+
+.ant-row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ant-alert {
+    margin-bottom: 16px;
+}
+
+
+.card-container > .ant-tabs-card > .ant-tabs-content {
+  /*height: 120px;*/
+  margin-top: -16px;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+  background: #fff;
+  padding: 16px;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-bar {
+  border-color: #fff;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+  border-color: transparent;
+  background: transparent;
+}
+
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+  border-color: #fff;
+  background: #fff;
 }
