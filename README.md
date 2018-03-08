@@ -39,6 +39,10 @@ Important technologies used
 
 ### Commands
 ----------
+* To install or re-install local packages
+	>npm install
+* To update local packages
+	>npm update
 * To run development server 
 	>npm start
 * To clean previous asset and build new and then run production server
